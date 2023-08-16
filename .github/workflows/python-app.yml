@@ -64,6 +64,6 @@ jobs:
 
       - name: Build and push Docker image
         run: |
-          docker build -t lapulga/simple-python-app:${{ github.sha }} .
-          docker push lapulga/simple-python-app:${{ github.sha }}
+          docker build -t lapulga/python-dockhub-gitactions:${{ github.sha }} .
+          docker push lapulga/python-dockhub-gitactions:${{ github.sha }}
 
